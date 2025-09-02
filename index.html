@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <h1>Welcome to the memory game</h1>
+   <div>
+    <button onclick="window.location.href='game.html'">Start Game</button> 
+    <button onclick="window.location.href='score.html'">View Scores</button>
+   </div>
+
+   <div class="container">
+        <div class="box1">
+            <h1>box 1</h1>
+        </div>
+        <div class="box1">
+            <h1>box 1</h1>
+        </div>
+   </div>
+   <div class="container">
+        <div class="box1">
+            <h1>box 1</h1>
+        </div>
+        <div class="box1">
+            <h1>box 1</h1>
+        </div>
+   </div>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Memory Game</h1>
+        <div class="buttons">
+            <!-- Uncomment to enable Start Game button -->
+            <!-- <button onclick="window.location.href='game.html'">Start Game</button> -->
+            <button onclick="window.location.href='score.html'">View Scores</button>
+        </div>
+    </header>
+
+    <main>
+        <h2 id="level-title">Level: 0</h2>
+        <div class="container">
+            <div class="box" id="red"><button>Red</button></div>
+            <div class="box" id="blue"><button>Blue</button></div>
+            <div class="box" id="green"><button>Green</button></div>
+            <div class="box" id="yellow"><button>Yellow</button></div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
